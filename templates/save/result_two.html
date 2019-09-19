@@ -1,0 +1,67 @@
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #4CAF50;
+}
+</style>
+</head>
+<body style="background-color:powderblue;">
+
+  <ul>
+  <li><a href="http://localhost:3000">Home</a></li>
+  <li><a href="http://localhost:3000/graph">Graph</a></li>
+  <li><a href= "http://localhost:3000/subgraph">Subgraph</a></li>
+  <li style="float:right"><a class="active" href="#about">About</a></li>
+  </ul>
+
+
+    <p> <h3> Source Node </h3> {{ info['source'] }} <p>
+    <p> <h3> Target Node </h3> {{ info['target'] }} <p>
+    
+    <p> <h3> Source Root </h3> {{ info['source_root'] }} <p>
+    <p> <h3> Target Root </h3> {{ info['target_root'] }} <p>
+    
+    <p> <h3> Have common child </h3> {{ info['common_child'] }} <p>
+   
+      
+    <p> <h3> Path between two nodes </h3> {{ info['path'] }} <p>
+    <p> <h3> Path Length </h3> {{ info['path_length'] }} <p>
+
+    <p> <h3> Subgraph Info </h3> {{ info['info'] }} <p>
+    <p> <h3> Subgraph Nodes </h3> {{ info['nodes'] }} <p>
+      
+      
+        
+      
+   </body>
+</html>

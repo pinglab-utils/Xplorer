@@ -1,0 +1,160 @@
+
+
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+      
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+      
+<!-- ===================Style for footer=============== -->
+      
+  <style>
+  .footer{
+  background: #152F4F;
+  color:white;
+  
+  .links{
+    ul {list-style-type: none;}
+    li a{
+      color: white;
+      transition: color .2s;
+      &:hover{
+        text-decoration:none;
+        color:#4180CB;
+        }
+    }
+  }  
+  .about-company{
+    i{font-size: 25px;}
+    a{
+      color:white;
+      transition: color .2s;
+      &:hover{color:#4180CB}
+    }
+  } 
+  .location{
+    i{font-size: 18px;}
+  }
+  .copyright p{border-top:1px solid rgba(255,255,255,.1);} 
+}
+      </style>      
+  </head>
+    
+    
+    
+  <body>
+    
+<!-- ==================Navigation================================ -->
+      
+<nav class="navbar navbar-expand-lg navbar-light bg-primary">
+    
+  <a class="navbar-brand text-white" href="#">ICD 11</a>
+    
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link text-white" href="http://localhost:3000" > Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-white" href="http://localhost:3000/ask_one">Explore</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Dropdown
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Action</a>
+          <a class="dropdown-item" href="#">Another action</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Something else here</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled text-white" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2 text-white" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0 text-white" type="submit"> Search</button>
+    </form>
+  </div>
+</nav>
+ 
+      
+ <!-- ==================Body================================ -->
+    
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+      
+    <center>
+      <p> The International Classification of Disease, Eleventh Revision (ICD-11) is a system of medical coding created by the World Health Organization (WHO) for documenting diagnoses, diseases, signs and symptoms and social circumstances.</p>
+      </center>
+      
+    <center>   
+      <form action = "http://localhost:3000/result_one" method = "POST">
+         <p> Enter Node ID <input type = "text" name = "source" size = "40", style="height:30px;" /></p>
+         <p><input type = "submit" value = "submit" /></p>
+      </form>
+    </center>
+    
+    
+      
+      
+      
+      
+      
+      
+<!-- ==================Footer================================ -->      
+      
+ <div class="mt-5 pt-5 pb-5 footer">
+<div class="container">
+  <div class="row">
+    <div class="col-lg-5 col-xs-12 about-company">
+      <h2>Heading</h2>
+      <p class="pr-5 text-white-50">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ac ante mollis quam tristique convallis </p>
+      <p><a href="#"><i class="fa fa-facebook-square mr-1"></i></a><a href="#"><i class="fa fa-linkedin-square"></i></a></p>
+    </div>
+    <div class="col-lg-3 col-xs-12 links">
+      <h4 class="mt-lg-0 mt-sm-3">Links</h4>
+        <ul class="m-0 p-0">
+          <li>- <a href="#">Lorem ipsum</a></li>
+          <li>- <a href="#">Nam mauris velit</a></li>
+          <li>- <a href="#">Etiam vitae mauris</a></li>
+          <li>- <a href="#">Fusce scelerisque</a></li>
+          <li>- <a href="#">Sed faucibus</a></li>
+          <li>- <a href="#">Mauris efficitur nulla</a></li>
+        </ul>
+    </div>
+    <div class="col-lg-4 col-xs-12 location">
+      <h4 class="mt-lg-0 mt-sm-4">Location</h4>
+      <p>22, Lorem ipsum dolor, consectetur adipiscing</p>
+      <p class="mb-0"><i class="fa fa-phone mr-3"></i>(541) 754-3010</p>
+      <p><i class="fa fa-envelope-o mr-3"></i>info@hsdf.com</p>
+    </div>
+  </div>
+  <div class="row mt-5">
+    <div class="col copyright">
+      <p class=""><small class="text-white-50">© 2019. All Rights Reserved.</small></p>
+    </div>
+  </div>
+</div>
+</div>
+      
+      
+        
+      
+   </body>
+</html>
