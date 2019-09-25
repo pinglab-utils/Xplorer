@@ -5,7 +5,7 @@
   <i> Speedy, optimized <strong>ICD 11</strong> graph search!</i>
 </p>
 
------------------------------------------
+--------------------------------
 
 <p align="center">
   <a href="https://github.com/timhagn/gatsby-background-image/blob/master/LICENSE">
@@ -30,9 +30,11 @@
     <img src="https://img.shields.io/badge/maintained%20with-lerna-0a7bbb.svg" alt="Lerna badge." />
   </a>  
 </p>
+
 ------------------------------------
 
 ![img](img/explorer.png)
+
 
 ---------------------------------
 
