@@ -2,7 +2,7 @@
   Xplorer 1.0
 </h1>
 <p align="center">
-  <i> Speedy, optimized <strong>ICD 11</strong> graph search!</i>
+  <i> Speedy, optimized <strong>ICD 11</strong> code search!</i>
 </p>
 
 --------------------------------
