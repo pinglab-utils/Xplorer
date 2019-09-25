@@ -14,12 +14,6 @@
   <a href="https://circleci.com/gh/timhagn/gatsby-background-image">
     <img src="https://circleci.com/gh/timhagn/gatsby-background-image.svg?style=shield" alt="Current CircleCI build status of gatsby-background-image." />
   </a>
-  <a href="https://codecov.io/gh/timhagn/gatsby-background-image">
-    <img src="https://codecov.io/gh/timhagn/gatsby-background-image/branch/master/graph/badge.svg" />
-  </a>
-  <a href="https://www.npmjs.org/package/gatsby-background-image">
-    <img src="https://img.shields.io/npm/v/gatsby-background-image.svg" alt="Current npm package version." />
-  </a>
   <a href="https://npmcharts.com/compare/gatsby-background-image?minimal=true">
     <img src="https://img.shields.io/npm/dw/gatsby-background-image.svg" alt="Downloads per week on npm." />
   </a>
