@@ -1,6 +1,9 @@
 # Xplorer
 
 
+![img](img/explorer.png)
+
+
 **1. INstall virtual env**
 ```
 pip install virtualenv
