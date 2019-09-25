@@ -25,9 +25,6 @@
   </a>
   <a href="https://github.com/timhagn/gatsby-background-image/blob/master/CONTRIBUTING.md">
     <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="PRs welcome!" />
-  </a>
-  <a href="https://lerna.js.org/">
-    <img src="https://img.shields.io/badge/maintained%20with-lerna-0a7bbb.svg" alt="Lerna badge." />
   </a>  
 </p>
 
