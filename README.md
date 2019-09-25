@@ -4,6 +4,9 @@
 <p align="center">
   <i> Speedy, optimized <strong>ICD 11</strong> graph search!</i>
 </p>
+
+-----------------------------------------
+
 <p align="center">
   <a href="https://github.com/timhagn/gatsby-background-image/blob/master/LICENSE">
     <img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="gatsby-background-image is released under the MIT license." />
@@ -27,16 +30,22 @@
     <img src="https://img.shields.io/badge/maintained%20with-lerna-0a7bbb.svg" alt="Lerna badge." />
   </a>  
 </p>
+------------------------------------
 
 ![img](img/explorer.png)
 
+---------------------------------
 
-**1. INstall virtual env**
+
+### Flask app Installation
+
+
+**1. Install virtual env**
 ```
 pip install virtualenv
 ```
 
-**2. GO in to the flask repo and create virtual env**
+**2. Go in to the flask repo and create virtual env**
 
 ```
 cd flaskapp
